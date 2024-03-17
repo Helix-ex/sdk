@@ -1,6 +1,6 @@
 # Helix Markets SDK
-
-pyHelixMarkets - python library for Keymakerfund, Funding proxy, Datagateway and Order gateway<br /><br />
+<br />
+pyHelixMarkets - Python library for Keymakerfund, Funding proxy, Data and Order gateway<br /><br />
 
 rs_helixmarkets - Rust code for authentication / signing required for REST API<br /><br />
 
