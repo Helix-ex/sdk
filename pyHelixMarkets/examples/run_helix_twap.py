@@ -97,7 +97,7 @@ async def main():
 
         # step 1: check if trading wallet has enough trading balance
         trading_balance = tradingWallet.GetBalances(asset=_base_currency)
-        if trading_balance >= _base_amount:
+        if trading_balance is not None and trading_balance >= _base_amount:
             print(f'Trading wallet has enough balance of {_base_currency} {_base_amount}')
         else:
             # step 2: transfer funding to trading wallet, waiting for deposit if needed
